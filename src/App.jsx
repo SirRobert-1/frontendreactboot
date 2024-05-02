@@ -4,7 +4,7 @@ import Home from "./Home";
 import Detalles from "./Detalles";
 import NotFound from "./NotFound";
 
-const API_URL = "https://localhost:3000/api/peliculas";
+const API_URL = "http://localhost:3000/api/peliculas";
 
 const App = () => {
   return (

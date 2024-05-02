@@ -9,7 +9,7 @@ const PeliculaCard = ({ pelicula, showSinopsis = false }) => {
 
   return (
     <>
-      {showSinopsis == true ? (
+      {showSinopsis === true ? (
         <Card style={{ maxWidth: "50rem" }} className="mx-auto">
           <Card.Header className="small text-end">{pelicula.anio}</Card.Header>
           <Row className="g-0">
@@ -67,7 +67,7 @@ const PeliculaCard = ({ pelicula, showSinopsis = false }) => {
           </Card.Body>
           <Card.Footer className="small">
             <Link
-              to={`/Detalle/${pelicula.peliculaId}`}
+              to={`/Detalles/${pelicula.peliculaId}`}
               className="card-link text-decoration-none"
             >
               Detalles
